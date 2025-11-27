@@ -8,7 +8,9 @@ This repository contains the code associated with the publication: *paper to be 
 ### `conn.m`
 Main script that computes connectivity features from patients EEG following the classical steps: pre-processing, nodes and edges computations, and features extraction.
 
-This is where you need to specify (1) all parameters concerning your connectivity analyses:
+This is where you need to specify:
+
+(1) all parameters concerning your connectivity analyses:
 - *f_bands*: list of frequency bands of interest
 - *channels*: list of EEG channels of interest
 - *ref*: original reference
