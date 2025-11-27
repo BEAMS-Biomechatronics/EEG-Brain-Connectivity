@@ -29,8 +29,8 @@ This is where you need to specify:
 - *diff_pat*: list of the patients you wish to re-reference to the *ref* specified above and/or to resample to the *fs* specified above
 
 The data of each patient should be stored in a MAT structure with 2 fields:
-- channels: structure of size 1 x *number of channels* with 2 fields: Name and Fs
-- data: double of size *length of recordings* [samples] x *number of channels* containing the EEG voltages (in microVolts)
+- *channels*: structure of size 1 x *number of channels* with 2 fields: Name and Fs
+- *data*: double of size *length of recordings* [samples] x *number of channels* containing the EEG voltages (in microVolts)
 
 ### `data.m`
 Class handling all processing on the raw data, including data preparation, pre-processing, and window splitting.
@@ -45,14 +45,12 @@ Class handling the computations of the associations between nodes to generate th
 Class handling the extraction of network features from the adjacency matrix.
 
 ## Dependencies
-
 MATLAB TOOLBOXES:
 - Signal Processing Toolbox
 - Parallel Computing Toolbox
 
 OTHER TOOLBOXES:
 - Brain Connectivity Toolbox. This is a freely available and open source Matlab toolbox for complex brain-network analysis. You can download it [here](https://sites.google.com/site/bctnet/). For more details, please refer to: *Complex network measures of brain connectivity: Uses and interpretations. Rubinov M, Sporns O (2010) NeuroImage 52:1059-69.*
-
 
 ## Usage
 1. Ensure you have MATLAB installed (recommended version: R2024b or later).
@@ -68,7 +66,6 @@ Lise Cottin
 If you use this algorithm for a publication (in a journal, in a conference, etc.), please cite the related publications (see below). The license attached to this toolbox is GPL v2, see https://www.gnu.org/licenses/gpl-2.0.txt. From https://www.gnu.org/licenses/gpl-2.0.html, it implies: This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
 ## Citation
-
 If you use this code or data in your research, please cite the following paper: *paper to be submitted*.
 
 and reference the archived version of the code: *to be added*. 
