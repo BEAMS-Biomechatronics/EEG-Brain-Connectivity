@@ -71,7 +71,7 @@ If you use this code or data in your research, please cite the following paper: 
 and reference the archived version of the code:
 
 > **Cottin, L., Damien, C., Anzalone, L., Aeby, A., Gaspard, N., & Nonclercq, A. (2025).**  
-> *Code for: EEG Brain Connectivity Methods for Seizure-related Disorders* [Computer software].  
+> *Code for: EEG Functional Connectivity Methods for Seizure-related Disorders* [Computer software].  
 > Zenodo.  
 > [![DOI](https://zenodo.org/badge/1105454056.svg)](https://doi.org/10.5281/zenodo.17779210) 
 
@@ -84,7 +84,7 @@ Click **“Cite this repository”** on the right sidebar of the GitHub page to 
 
 @software{Cottin2025CodeEEGConnectivity,
   author    = {Lise Cottin and Charlotte Damien and Luca Anzalone and Alec Aeby and Nicolas Gaspard and Antoine Nonclercq},
-  title     = {Code for: EEG Brain Connectivity Methods for Seizure-related Disorders},
+  title     = {Code for: EEG Functional Connectivity Methods for Seizure-related Disorders},
   year      = {2025},
   doi       = {10.5281/zenodo.17779211},
   url       = {https://github.com/username/repo},
